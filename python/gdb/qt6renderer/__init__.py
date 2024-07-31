@@ -1,1 +1,0 @@
-from qt6renderer.lookup import qt6_lookup
