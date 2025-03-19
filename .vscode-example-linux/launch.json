@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "GDB-MI 6.6.1 Linux",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",            
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [{
+                "name": "PATH",
+                "value": "${env:PATH}:/home/winac/Qt/6.6.1/gcc_64/bin/"
+            }],
+            "externalConsole": false,
+            "MIMode": "gdb",            
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "GDB-MI 6.7.2 Linux",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",            
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [{
+                "name": "PATH",
+                "value": "${env:PATH}:/home/winac/Qt/6.7.2/gcc_64/bin/"
+            }],
+            "externalConsole": false,
+            "MIMode": "gdb",            
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "LLDB-DAP 6.6.1 Linux",
+            "type": "lldb-dap",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",            
+            "args": [],            
+            "cwd": "${workspaceFolder}",
+            "env": ["PATH=${env:PATH}:/home/winac/Qt/6.6.1/gcc_64/bin/"],
+            "debuggerRoot": "/usr"
+        },
+        {
+            /*Requires lldb-mi executable in PATH*/
+            /*
+            https://github.com/lldb-tools/lldb-mi
+            */
+            "name": "LLDB-MI 6.7.2 Linux",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",            
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [{
+                "name": "PATH",
+                "value": "${env:PATH}:/home/winac/Qt/6.7.2/gcc_64/bin/"
+            }],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}

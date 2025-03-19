@@ -1,0 +1,19 @@
+[{
+    "name": "Qt 6.6.1",
+    "compilers": {
+        "C": "gcc",
+        "CXX": "g++"
+    },
+    "cmakeSettings": {        
+        "Qt6_ROOT": "/home/winac/Qt/6.6.1/gcc_64/"
+    }
+}, {
+    "name": "Qt 6.7.2",
+    "compilers": {
+        "C": "gcc",
+        "CXX": "g++"
+    },
+    "cmakeSettings": {        
+        "Qt6_ROOT": "/home/winac/Qt/6.7.2/gcc_64/"
+    }
+}]

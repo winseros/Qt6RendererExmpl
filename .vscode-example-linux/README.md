@@ -1,0 +1,1 @@
+These are example `.vscode` settings to launch on Linux.
