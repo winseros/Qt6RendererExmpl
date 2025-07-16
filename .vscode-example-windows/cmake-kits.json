@@ -1,0 +1,31 @@
+[{
+    "name": "GCC Qt 6.6.1 Debug",
+    "isTrusted": true,
+    "cmakeSettings": {        
+        "Qt6_ROOT": "F:/Qt/6.6.1/mingw_64",
+        "CMAKE_C_COMPILER": "F:/Qt/Tools/mingw1120_64/bin/gc.exe",
+        "CMAKE_CXX_COMPILER": "F:/Qt/Tools/mingw1120_64/bin/g++.exe"        
+    },
+    "compilers": {
+        "C": "F:/Qt/Tools/mingw1120_64/bin/gc.exe",
+        "CXX": "F:/Qt/Tools/mingw1120_64/bin/g++.exe"
+    },
+    "environmentVariables": {
+        "PATH": "${env:PATH};C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+    }
+}, {
+    "name": "GCC Qt 6.7.2 Debug",
+    "isTrusted": true,
+    "cmakeSettings": {
+        "Qt6_ROOT": "F:/Qt/6.7.2/mingw_64",
+        "CMAKE_C_COMPILER": "F:/Qt/Tools/mingw1120_64/bin/gc.exe",
+        "CMAKE_CXX_COMPILER": "F:/Qt/Tools/mingw1120_64/bin/g++.exe"        
+    },
+    "compilers": {
+        "C": "F:/Qt/Tools/mingw1120_64/bin/gc.exe",
+        "CXX": "F:/Qt/Tools/mingw1120_64/bin/g++.exe"
+    },
+    "environmentVariables": {
+        "PATH": "${env:PATH};C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+    }
+}]
