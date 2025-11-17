@@ -2,6 +2,7 @@
 #include "types/qatomicint.h"
 #include "types/qbitarray.h"
 #include "types/qbytearray.h"
+#include "types/qcborvalue.h"
 #include "types/qchar.h"
 #include "types/qdate.h"
 #include "types/qdatetime.h"
@@ -12,6 +13,8 @@
 #include "types/qflags.h"
 #include "types/qhash.h"
 #include "types/qhostaddress.h"
+#include "types/qjsonarray.h"
+#include "types/qjsonobject.h"
 #include "types/qlist.h"
 #include "types/qlocale.h"
 #include "types/qmap.h"
@@ -32,6 +35,7 @@ int main()
     DemoQAtomicInt();
     DemoQBitArray();
     DemoQByteArray();
+    DemoQCBorValue();
     DemoQChar();
     DemoQDate();
     DemoQDateTime();
@@ -42,6 +46,8 @@ int main()
     DemoQFlags();
     DemoQHash();
     DemoQHostAddress();
+    DemoQJsonArray();
+    DemoQJsonObject();
     DemoQList();
     DemoQLocale();
     DemoQMap();
