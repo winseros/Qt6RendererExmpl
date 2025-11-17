@@ -1,9 +1,13 @@
 #pragma once
 
 #include <QHash>
+#include <QSet>
 
 void DemoQHash()
 {
+    QHash<QString, QSet<QString>> h0;
+    h0.insert("k0", QSet<QString>({"v1", "v2", "v3"}));
+
     QHash<QString, QString> h1;
     h1.insert("k1", "v1");
     h1.insert("k2", "v2");
