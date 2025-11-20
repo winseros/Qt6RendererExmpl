@@ -15,6 +15,7 @@
 #include "types/qhostaddress.h"
 #include "types/qjsonarray.h"
 #include "types/qjsonobject.h"
+#include "types/qjsonvalue.h"
 #include "types/qlist.h"
 #include "types/qlocale.h"
 #include "types/qmap.h"
@@ -48,6 +49,7 @@ int main()
     DemoQHostAddress();
     DemoQJsonArray();
     DemoQJsonObject();
+    DemoQJsonValue();
     DemoQList();
     DemoQLocale();
     DemoQMap();
