@@ -14,6 +14,7 @@
 #include "types/qhash.h"
 #include "types/qhostaddress.h"
 #include "types/qjsonarray.h"
+#include "types/qjsondocument.h"
 #include "types/qjsonobject.h"
 #include "types/qjsonvalue.h"
 #include "types/qlist.h"
@@ -48,6 +49,7 @@ int main()
     DemoQHash();
     DemoQHostAddress();
     DemoQJsonArray();
+    DemoQJsonDocument();
     DemoQJsonObject();
     DemoQJsonValue();
     DemoQList();
