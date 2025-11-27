@@ -13,7 +13,6 @@ void DemoQJsonObject() {
 "prop8": {"subProp1": 1, "subProp2": 1.1, "subProp3": [true, false, "subValue8"],
 "subObject": {"subProp4": "value4"}}})");
 
-    QJsonDocument document0;
     QJsonDocument document1 = QJsonDocument::fromJson(jsonData1);
     QJsonObject obj1 = document1.object();
     auto obj1It = obj1.begin();

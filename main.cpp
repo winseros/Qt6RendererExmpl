@@ -17,6 +17,7 @@
 #include "types/qjsondocument.h"
 #include "types/qjsonobject.h"
 #include "types/qjsonvalue.h"
+#include "types/qjsonvalueconstref.h"
 #include "types/qlist.h"
 #include "types/qlocale.h"
 #include "types/qmap.h"
@@ -52,6 +53,7 @@ int main()
     DemoQJsonDocument();
     DemoQJsonObject();
     DemoQJsonValue();
+    DemoQJsonValueConstRef();
     DemoQList();
     DemoQLocale();
     DemoQMap();
