@@ -25,7 +25,7 @@ void DemoQJsonValueConstRef() {
     const auto prop4R = *obj1.find("prop4");
 
     auto elemCRiter = arr2.constBegin();
-    while (elemCRiter != arr2.end()) {
+    while (elemCRiter != arr2.constEnd()) {
         const auto elemCR = *elemCRiter;
         ++elemCRiter;
     }
