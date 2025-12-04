@@ -28,4 +28,6 @@ void DemoQList() {
     auto it = list1.begin();
     auto it_end = list1.end();
     const auto cit = list1.constBegin();
+
+    auto it2 = list2.begin();
 }
