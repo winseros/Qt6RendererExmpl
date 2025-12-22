@@ -62,6 +62,11 @@ void DemoQHash()
     h5.insert('c', 'd');
     h5.insert('e', 'f');
 
+    QHash<int, QSharedPointer<QList<QString>>> h6;
+    h6.insert(1, QSharedPointer<QList<QString>>(new QList<QString>{{"1", "2", "3"}}));
+    h6.insert(2, QSharedPointer<QList<QString>>(new QList<QString>{{"4", "5", "6"}}));
+    h6.insert(3, QSharedPointer<QList<QString>>(new QList<QString>{{"7", "8", "9"}}));
+
     auto it1 = h1.begin();
     auto it1_end = h1.end();
     while (it1 != h1.end())
